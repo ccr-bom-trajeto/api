@@ -3,3 +3,7 @@ export * from './business.controller';
 export * from './drivers.controller';
 export * from './business-drivers.controller';
 export * from './drivers-business.controller';
+export * from './restaurants-parking-lots.controller';
+export * from './parking-lots-restaurants.controller';
+export * from './restaurants.controller';
+export * from './parking-lots.controller';
