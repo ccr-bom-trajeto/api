@@ -1,6 +1,6 @@
 import {inject, lifeCycleObserver, LifeCycleObserver} from '@loopback/core';
 import {juggler} from '@loopback/repository';
-const databaseUrl = process.env.MONGODB_URL ?? 'mongodb://localhost:27017/bom_trajeto'
+const databaseUrl = process.env.MONGODB_URL ?? 'mongodb://localhost:27017/api'
 const config = {
   name: 'Azure',
   connector: 'mongodb',
