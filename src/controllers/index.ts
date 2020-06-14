@@ -7,3 +7,6 @@ export * from './restaurants-parking-lots.controller';
 export * from './parking-lots-restaurants.controller';
 export * from './restaurants.controller';
 export * from './parking-lots.controller';
+export * from './products.controller';
+export * from './orders.controller';
+export * from './cart.controller';
