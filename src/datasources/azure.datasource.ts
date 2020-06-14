@@ -1,10 +1,10 @@
 import {inject, lifeCycleObserver, LifeCycleObserver} from '@loopback/core';
 import {juggler} from '@loopback/repository';
-
+const databaseUrl = process.env.MONGODB_URL ?? 'mongodb://localhost:27017/bom_trajeto'
 const config = {
   name: 'Azure',
   connector: 'mongodb',
-  url: 'mongodb://banco-api-bom-trajeto:sMdqILkSDEXr5rh7HrF6Gc1jtIDyHMwyHC6G6ZRB1CsLE1z1xX4rALRUYuwsKje9hC2JHkwq6aTSQcnCtOFDvw%3D%3D@banco-api-bom-trajeto.documents.azure.com:10255/api?ssl=true',
+  url: databaseUrl,
   host: '',
   port: 0,
   user: '',
